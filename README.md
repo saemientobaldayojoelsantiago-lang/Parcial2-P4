@@ -28,3 +28,20 @@ Si no está cancelada, la agrego a la cola auxiliar.
 Devuelvo la nueva cola con las solicitudes válidas.
 
 Se conserva el orden FIFO (First In, First Out): la primera solicitud que llega sigue siendo la primera en la cola. La cola original no se modifica durante el filtrado.
+
+
+# Punto 3:
+
+Cómo explicarlo:
+
+La función recibe la pila y la nueva acción.
+
+len(pila) cuenta cuántas acciones hay.
+
+Si hay cinco, pop(0) elimina la acción más antigua, que está en el fondo.
+
+append(accion) agrega la nueva acción al tope.
+
+La pila termina con un máximo de cinco elementos.
+
+Importante: en esta implementación, el fondo de la pila está en la posición 0 y el tope está al final de la lista.
